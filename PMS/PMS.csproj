@@ -1,0 +1,540 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{0D607C8D-F9F1-4A8E-BB53-29128659693F}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>PMS</RootNamespace>
+    <AssemblyName>PMS</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="People.cs" />
+    <Compile Include="PMSDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PMSDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="PMSDataSet10.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PMSDataSet10.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="PMSDataSet11.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PMSDataSet11.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="PMSDataSet12.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PMSDataSet12.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="PMSDataSet13.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PMSDataSet13.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="PMSDataSet14.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PMSDataSet14.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="PMSDataSet15.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PMSDataSet15.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="PMSDataSet16.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PMSDataSet16.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="PMSDataSet17.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PMSDataSet17.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="PMSDataSet18.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PMSDataSet18.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="PMSDataSet19.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PMSDataSet19.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="PMSDataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PMSDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="PMSDataSet20.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PMSDataSet20.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="PMSDataSet21.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PMSDataSet21.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="PMSDataSet22.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PMSDataSet22.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="PMSDataSet3.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PMSDataSet3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="PMSDataSet4.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PMSDataSet4.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="PMSDataSet5.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PMSDataSet5.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="PMSDataSet6.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PMSDataSet6.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="PMSDataSet7.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PMSDataSet7.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="PMSDataSet8.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PMSDataSet8.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="PMSDataSet9.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PMSDataSet9.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SetConnection.cs" />
+    <Compile Include="出勤管理.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="出勤管理.Designer.cs">
+      <DependentUpon>出勤管理.cs</DependentUpon>
+    </Compile>
+    <Compile Include="员工查询.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="员工查询.Designer.cs">
+      <DependentUpon>员工查询.cs</DependentUpon>
+    </Compile>
+    <Compile Include="工资管理.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="工资管理.Designer.cs">
+      <DependentUpon>工资管理.cs</DependentUpon>
+    </Compile>
+    <Compile Include="帮助.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="帮助.Designer.cs">
+      <DependentUpon>帮助.cs</DependentUpon>
+    </Compile>
+    <Compile Include="忘记密码.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="忘记密码.Designer.cs">
+      <DependentUpon>忘记密码.cs</DependentUpon>
+    </Compile>
+    <Compile Include="员工登录界面.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="员工登录界面.Designer.cs">
+      <DependentUpon>员工登录界面.cs</DependentUpon>
+    </Compile>
+    <Compile Include="管理员登录界面.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="管理员登录界面.Designer.cs">
+      <DependentUpon>管理员登录界面.cs</DependentUpon>
+    </Compile>
+    <Compile Include="人事管理.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="人事管理.Designer.cs">
+      <DependentUpon>人事管理.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PMSDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PMSDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="工资管理系统.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="工资管理系统.Designer.cs">
+      <DependentUpon>工资管理系统.cs</DependentUpon>
+    </Compile>
+    <Compile Include="行政管理.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="行政管理.Designer.cs">
+      <DependentUpon>行政管理.cs</DependentUpon>
+    </Compile>
+    <Compile Include="选择登陆.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="选择登陆.Designer.cs">
+      <DependentUpon>选择登陆.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="人事管理.resx">
+      <DependentUpon>人事管理.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="出勤管理.resx">
+      <DependentUpon>出勤管理.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="员工查询.resx">
+      <DependentUpon>员工查询.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="工资管理.resx">
+      <DependentUpon>工资管理.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="忘记密码.resx">
+      <DependentUpon>忘记密码.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="员工登录界面.resx">
+      <DependentUpon>员工登录界面.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="管理员登录界面.resx">
+      <DependentUpon>管理员登录界面.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="工资管理系统.resx">
+      <DependentUpon>工资管理系统.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="行政管理.resx">
+      <DependentUpon>行政管理.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="选择登陆.resx">
+      <DependentUpon>选择登陆.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="PMSDataSet.xsc">
+      <DependentUpon>PMSDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="PMSDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>PMSDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="PMSDataSet.xss">
+      <DependentUpon>PMSDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="PMSDataSet1.xsc">
+      <DependentUpon>PMSDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="PMSDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>PMSDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="PMSDataSet1.xss">
+      <DependentUpon>PMSDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="PMSDataSet10.xsc">
+      <DependentUpon>PMSDataSet10.xsd</DependentUpon>
+    </None>
+    <None Include="PMSDataSet10.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>PMSDataSet10.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="PMSDataSet10.xss">
+      <DependentUpon>PMSDataSet10.xsd</DependentUpon>
+    </None>
+    <None Include="PMSDataSet11.xsc">
+      <DependentUpon>PMSDataSet11.xsd</DependentUpon>
+    </None>
+    <None Include="PMSDataSet11.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>PMSDataSet11.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="PMSDataSet11.xss">
+      <DependentUpon>PMSDataSet11.xsd</DependentUpon>
+    </None>
+    <None Include="PMSDataSet12.xsc">
+      <DependentUpon>PMSDataSet12.xsd</DependentUpon>
+    </None>
+    <None Include="PMSDataSet12.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>PMSDataSet12.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="PMSDataSet12.xss">
+      <DependentUpon>PMSDataSet12.xsd</DependentUpon>
+    </None>
+    <None Include="PMSDataSet13.xsc">
+      <DependentUpon>PMSDataSet13.xsd</DependentUpon>
+    </None>
+    <None Include="PMSDataSet13.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>PMSDataSet13.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="PMSDataSet13.xss">
+      <DependentUpon>PMSDataSet13.xsd</DependentUpon>
+    </None>
+    <None Include="PMSDataSet14.xsc">
+      <DependentUpon>PMSDataSet14.xsd</DependentUpon>
+    </None>
+    <None Include="PMSDataSet14.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>PMSDataSet14.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="PMSDataSet14.xss">
+      <DependentUpon>PMSDataSet14.xsd</DependentUpon>
+    </None>
+    <None Include="PMSDataSet15.xsc">
+      <DependentUpon>PMSDataSet15.xsd</DependentUpon>
+    </None>
+    <None Include="PMSDataSet15.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>PMSDataSet15.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="PMSDataSet15.xss">
+      <DependentUpon>PMSDataSet15.xsd</DependentUpon>
+    </None>
+    <None Include="PMSDataSet16.xsc">
+      <DependentUpon>PMSDataSet16.xsd</DependentUpon>
+    </None>
+    <None Include="PMSDataSet16.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>PMSDataSet16.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="PMSDataSet16.xss">
+      <DependentUpon>PMSDataSet16.xsd</DependentUpon>
+    </None>
+    <None Include="PMSDataSet17.xsc">
+      <DependentUpon>PMSDataSet17.xsd</DependentUpon>
+    </None>
+    <None Include="PMSDataSet17.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>PMSDataSet17.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="PMSDataSet17.xss">
+      <DependentUpon>PMSDataSet17.xsd</DependentUpon>
+    </None>
+    <None Include="PMSDataSet18.xsc">
+      <DependentUpon>PMSDataSet18.xsd</DependentUpon>
+    </None>
+    <None Include="PMSDataSet18.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>PMSDataSet18.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="PMSDataSet18.xss">
+      <DependentUpon>PMSDataSet18.xsd</DependentUpon>
+    </None>
+    <None Include="PMSDataSet19.xsc">
+      <DependentUpon>PMSDataSet19.xsd</DependentUpon>
+    </None>
+    <None Include="PMSDataSet19.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>PMSDataSet19.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="PMSDataSet19.xss">
+      <DependentUpon>PMSDataSet19.xsd</DependentUpon>
+    </None>
+    <None Include="PMSDataSet2.xsc">
+      <DependentUpon>PMSDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="PMSDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>PMSDataSet2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="PMSDataSet2.xss">
+      <DependentUpon>PMSDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="PMSDataSet20.xsc">
+      <DependentUpon>PMSDataSet20.xsd</DependentUpon>
+    </None>
+    <None Include="PMSDataSet20.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>PMSDataSet20.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="PMSDataSet20.xss">
+      <DependentUpon>PMSDataSet20.xsd</DependentUpon>
+    </None>
+    <None Include="PMSDataSet21.xsc">
+      <DependentUpon>PMSDataSet21.xsd</DependentUpon>
+    </None>
+    <None Include="PMSDataSet21.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>PMSDataSet21.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="PMSDataSet21.xss">
+      <DependentUpon>PMSDataSet21.xsd</DependentUpon>
+    </None>
+    <None Include="PMSDataSet22.xsc">
+      <DependentUpon>PMSDataSet22.xsd</DependentUpon>
+    </None>
+    <None Include="PMSDataSet22.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>PMSDataSet22.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="PMSDataSet22.xss">
+      <DependentUpon>PMSDataSet22.xsd</DependentUpon>
+    </None>
+    <None Include="PMSDataSet3.xsc">
+      <DependentUpon>PMSDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="PMSDataSet3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>PMSDataSet3.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="PMSDataSet3.xss">
+      <DependentUpon>PMSDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="PMSDataSet4.xsc">
+      <DependentUpon>PMSDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="PMSDataSet4.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>PMSDataSet4.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="PMSDataSet4.xss">
+      <DependentUpon>PMSDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="PMSDataSet5.xsc">
+      <DependentUpon>PMSDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="PMSDataSet5.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>PMSDataSet5.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="PMSDataSet5.xss">
+      <DependentUpon>PMSDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="PMSDataSet6.xsc">
+      <DependentUpon>PMSDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="PMSDataSet6.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>PMSDataSet6.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="PMSDataSet6.xss">
+      <DependentUpon>PMSDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="PMSDataSet7.xsc">
+      <DependentUpon>PMSDataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="PMSDataSet7.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>PMSDataSet7.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="PMSDataSet7.xss">
+      <DependentUpon>PMSDataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="PMSDataSet8.xsc">
+      <DependentUpon>PMSDataSet8.xsd</DependentUpon>
+    </None>
+    <None Include="PMSDataSet8.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>PMSDataSet8.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="PMSDataSet8.xss">
+      <DependentUpon>PMSDataSet8.xsd</DependentUpon>
+    </None>
+    <None Include="PMSDataSet9.xsc">
+      <DependentUpon>PMSDataSet9.xsd</DependentUpon>
+    </None>
+    <None Include="PMSDataSet9.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>PMSDataSet9.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="PMSDataSet9.xss">
+      <DependentUpon>PMSDataSet9.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
